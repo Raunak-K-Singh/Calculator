@@ -1,5 +1,4 @@
 # Calculator
-
 An advanced calculator using command line arguments to calculate multiple numbers.
 
 Syntax : ./calculator num1 op1 num2 op2 num3 op3 num4 ...
