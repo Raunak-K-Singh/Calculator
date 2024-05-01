@@ -22,7 +22,7 @@ int main(int argc,string argv[]) {
             case '-':
                 result -= operand;
                 break;
-            case '*':
+            case 'x':
                 result *= operand;
                 break;
             case '/':
