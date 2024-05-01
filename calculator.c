@@ -11,7 +11,7 @@ int main(int argc,string argv[]) {
 
     double result = atof(argv[1]); // Initialize result with the first number
 
-    for (int i = 2; i < argc; i += 2) {
+    for (int i = 2; i < argc - 1; i += 2) {
         char operator = argv[i][0];
         double operand = atof(argv[i + 1]);
 
